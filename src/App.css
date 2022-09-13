@@ -31,15 +31,11 @@
 /* color-picker style  */
 
  #preview {
-  background: transparent
-    url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png')
-    no-repeat;
-  display: inline-block;
-  height: 80px;
-  margin: 10px 0;
-  min-width: 300px;
-  max-width: 600px;
-  background-color: #008000;
+  background-image: url('/Users/chenyan/Desktop/my-app/project_syncfusion_dashboard/src/data/b2.png');
+  /* height: 700px;
+  width: 700px;
+  transform: scale(0.5);
+  background-color: #060706; */
 }
 
 .e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left){

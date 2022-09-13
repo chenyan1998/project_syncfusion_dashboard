@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './pages';
+import {Homepage,Analysis, Simulator,Optimization,Feedback,Ecommerce, Employees, Calendar, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor, FilesUpload } from './pages';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -65,17 +65,20 @@ const App = () => {
 
               <Routes>
                 {/* dashboard  */}
-                <Route path="/" element={(<Ecommerce />)} />
+                <Route path="/homepage" element={(<Homepage />)} />
                 <Route path="/ecommerce" element={(<Ecommerce />)} />
 
                 {/* pages  */}
-                <Route path="/orders" element={<Orders />} />
+                <Route path="/analysis" element={(<Analysis />)} />
+                <Route path="/simulator" element={(<Simulator />)} />
+                <Route path="/optimization" element={(<Optimization />)} />
+                <Route path="/filesupload" element={<FilesUpload />} />
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/customers" element={<Customers />} />
 
                 {/* apps  */}
                 <Route path="/kanban" element={<Kanban />} />
-                <Route path="/editor" element={<Editor />} />
+                <Route path="/feedback" element={<Feedback />} />
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/color-picker" element={<ColorPicker />} />
 
