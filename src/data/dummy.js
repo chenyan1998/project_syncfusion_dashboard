@@ -420,10 +420,51 @@ export const productsGrid = [
   },
 
   { headerText: 'Market Share',
-  field: 'MarketShare',
+    field: 'MarketShare',
     width: '120',
     textAlign: 'Center',
    },
+];
+
+export const WTPGrid = [
+  { field: 'Product',
+    headerText: 'Product',
+    width: '150',
+    textAlign: 'Center' },
+
+  { field: 'Name',
+    headerText: 'Product Name',
+    width: '0',
+    textAlign: 'Center',
+  },
+
+  { field: 'WTP',
+    headerText: 'WTP',
+    width: '170',
+    textAlign: 'Center',
+  },
+
+  { headerText: 'VectorB',
+    field: 'VectorB',
+    width: '120',
+    textAlign: 'Center',
+   },
+
+  { headerText: 'Probability',
+    field: 'Probability',
+    width: '120',
+    textAlign: 'Center',
+  },
+  { headerText: 'Mean',
+    field: 'Mean',
+    width: '120',
+    textAlign: 'Center',
+  },
+  { headerText: 'Variance',
+    field: 'Variance',
+    width: '120',
+    textAlign: 'Center',
+  },
 ];
 
 export const links = [
@@ -1444,34 +1485,144 @@ export const customersData = [
 
 ];
 
-export const productsData = [
+export const WTPData = [
   {
     Product: 1,
     Name: 'Product1',
-    Price: '50',
-    MarketShare: '60',
-    avatar3,
+    WTP: '206.47',
+    VectorB: '1',
+    Probability: '0.89',
+    Mean: '1',
+    Variance: '0.1',
   },
   {
     Product: 2,
     Name: 'Product2',
-    Price: '50',
-    MarketShare: '60',
-    avatar3,
+    WTP: '206.47',
+    VectorB: '1',
+    Probability: '0.89',
+    Mean: '1',
+    Variance: '0.1',
   },
   {
     Product: 3,
     Name: 'Product3',
-    Price: '50',
-    MarketShare: '60',
-    avatar4,
+    WTP: '206.47',
+    VectorB: '1',
+    Probability: '0.89',
+    Mean: '1',
+    Variance: '0.1',
   },
   {
     Product: 4,
     Name: 'Product4',
-    Price: '50',
-    MarketShare: '60',
-    avatar2,
+    WTP: '206.47',
+    VectorB: '1',
+    Probability: '0.89',
+    Mean: '1',
+    Variance: '0.1',
+  },
+  {
+    Product: 5,
+    Name: 'Product5',
+    WTP: '206.47',
+    VectorB: '1',
+    Probability: '0.89',
+    Mean: '1',
+    Variance: '0.1',
+  },
+  {
+    Product: 6,
+    Name: 'Product6',
+    WTP: '206.47',
+    VectorB: '1',
+    Probability: '0.89',
+    Mean: '1',
+    Variance: '0.1',
+  },
+  {
+    Product: 7,
+    Name: 'Product7',
+    WTP: '206.47',
+    VectorB: '1',
+    Probability: '0.89',
+    Mean: '1',
+    Variance: '0.1',
+  },
+  {
+    Product: 8,
+    Name: 'Product8',
+    WTP: '206.47',
+    VectorB: '1',
+    Probability: '0.89',
+    Mean: '1',
+    Variance: '0.1',
+  },
+  {
+    Product: 9,
+    Name: 'Product9',
+    WTP: '206.47',
+    VectorB: '1',
+    Probability: '0.89',
+    Mean: '1',
+    Variance: '0.1',
+  }
+];
+
+export const productsData = [
+  {
+    Product: 1,
+    Name: 'Product1',
+    Price: '206.47',
+    MarketShare: '1',
+  },
+  {
+    Product: 2,
+    Name: 'Product2',
+    Price: '45',
+    MarketShare: '14',
+  },
+  {
+    Product: 3,
+    Name: 'Product3',
+    Price: '6.7',
+    MarketShare: '11',
+  },
+  {
+    Product: 4,
+    Name: 'Product4',
+    Price: '7',
+    MarketShare: '71',
+  },
+  {
+    Product: 5,
+    Name: 'Product5',
+    Price: '47',
+    MarketShare: '18',
+  },
+  {
+    Product: 6,
+    Name: 'Product6',
+    Price: '60.47',
+    MarketShare: '21',
+  },
+  {
+    Product: 7,
+    Name: 'Product7',
+    Price: '6.47',
+    MarketShare: '15',
+  },
+  {
+    Product: 8,
+    Name: 'Product8',
+    Price: '20',
+    MarketShare: '10',
+  },
+  {
+    Product: 9,
+    Name: 'Product9',
+    Price: '26.47',
+    MarketShare: '10',
   }
 ];
 
